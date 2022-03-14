@@ -14,17 +14,40 @@
           transition="scale-transition"
           width="40"
         />
+        <router-link to="/">      
+      <v-btn
+        target="_blank"
+        text
+      >
+        <h2>Wallet</h2>
+      </v-btn>
+      </router-link>
+        
 
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
+        
       </div>
 
+      <v-spacer></v-spacer>
+
+
+      <router-link to="/plans">      
+      <v-btn
+        target="_blank"
+        text
+      >
+        <span class="mr-2">Plans</span>
+      </v-btn>
+      </router-link>
+
+      <router-link to="/rewards">      
+        <v-btn
+          target="_blank"
+          text
+        >
+          <span class="mr-2">Rewards</span>
+        </v-btn>
+      </router-link>
+     
       <v-spacer></v-spacer>
 
       <v-btn
@@ -32,7 +55,7 @@
         target="_blank"
         text
       >
-        <span class="mr-2">Latest Release</span>
+        <span class="mr-2">Logout</span>
         <v-icon>open_in_new</v-icon>
       </v-btn>
     </v-app-bar>
