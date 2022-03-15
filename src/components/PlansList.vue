@@ -2,7 +2,10 @@
   
 
     <div>
-        <h1>Planes:</h1>
+        
+        <h1>Planes</h1>
+
+      
         <v-item-group>
             <v-container>
             <v-row>
@@ -50,6 +53,21 @@
     },
 
     data: () => ({
+        dialog: null,
+        editedItem: {
+        name: '',
+        calories: 0,
+        fat: 0,
+        carbs: 0,
+        protein: 0,
+      },
+      defaultItem: {
+        name: '',
+        calories: 0,
+        fat: 0,
+        carbs: 0,
+        protein: 0,
+      },
         plans : [
             {
                 id: 1, 

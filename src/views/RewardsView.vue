@@ -1,22 +1,22 @@
-2<template>
+<template>
   <v-container grid-list-xs>
     
   
-    <RewardsList />
+    <RewardsTable />
     
   </v-container>
 </template>
 
 <script>
   
-  import RewardsList from '../components/RewardsList'
+  import RewardsTable from '../components/RewardsTable'
   
 
   export default {
     name: 'RewardsView',
 
     components: {
-      RewardsList,
+      RewardsTable,
       
     },
   }

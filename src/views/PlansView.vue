@@ -2,21 +2,21 @@
   <v-container grid-list-xs>
     
   
-    <PlansList />
+    <PlansTable />
     
   </v-container>
 </template>
 
 <script>
   
-  import PlansList from '../components/PlansList'
+  import PlansTable from '../components/PlansTable'
   
 
   export default {
     name: 'PlansView',
 
     components: {
-      PlansList,
+      PlansTable,
       
     },
   }
